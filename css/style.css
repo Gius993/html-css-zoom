@@ -18,11 +18,16 @@ img{
 body{
 	background-color: black;
 }
+.container-footer i{
+	color: white;
+	margin: 10px;
+}
 /*header*/
 .button-container{
 	width: 100vw;
 	justify-content: end;
-	padding-bottom: 20px;
+	
+	
 }
 .speacker{
 	display: inline-block;
@@ -57,8 +62,21 @@ body{
 	
 }
 
+
+
+
+/*footer*/
 .container-footer{
 	width: 100vw;
+	justify-content: space-between;
+	background-color: #222;
 }
-
-
+.end{
+	
+	color: red;
+	background-color:#4a4a4a ;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+	
+}
